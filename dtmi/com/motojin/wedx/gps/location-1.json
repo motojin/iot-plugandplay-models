@@ -3,6 +3,7 @@
   "@id": "dtmi:com:motojin:wedx:gps:location;1",
   "@type": "Interface",
   "displayName": "Location",
+  "description": "Location Interface Model",
   "contents": [
     {
       "@type": "Telemetry",
