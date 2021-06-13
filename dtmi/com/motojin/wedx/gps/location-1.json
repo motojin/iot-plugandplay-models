@@ -1,0 +1,29 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:motojin:wedx:gps:location;1",
+  "@type": "Interface",
+  "displayName": "Location",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "location",
+      "displayName": "Device Location",
+      "description": "This telemetry sends the location information of the device.",
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "displayName": "Longitude",
+            "name": "longitude",
+            "schema": "double"
+          },
+          {
+            "displayName": "Latitude",
+            "name": "latitude",
+            "schema": "double"
+          }
+        ]
+      }
+    }
+  ]
+}
